@@ -13,12 +13,12 @@ setTimeout(getData, 3000)
 
 function getData() {
   header.innerHTML =
-    '<img src="https://images.pexels.com/photos/7767974/pexels-photo-7767974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""/>';
+    '<img src="https://images.pexels.com/photos/7767974/pexels-photo-7767974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Profile Image"/>';
   title.innerHTML = 'Lorem ipsum dolor sit amet.';
   excerpt.innerHTML =
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, recusandae.';
   profile_img.innerHTML =
-    '<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="" />';
+    '<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Profile Image" />';
   namee.innerHTML = 'John Doe';
   date.innerHTML = 'Dec 20, 2022';
 
